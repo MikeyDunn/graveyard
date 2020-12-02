@@ -1,0 +1,14 @@
+{
+  "name": "graveyard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bans.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^1.37.1"
+  }
+}
