@@ -52,7 +52,7 @@ export default {
       this.loading = false
     },
     parseDate (date) {
-      const dateTime = new Date(date)
+      const dateTime = new Date(date.replace(/-/g, '/'))
 
       return dateTime.toTimeString().split(' ')[0]
     }
